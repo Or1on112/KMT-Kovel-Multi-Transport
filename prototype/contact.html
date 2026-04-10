@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти | KMT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       .content-block { max-width: 900px; margin: 0 auto; padding-bottom: var(--spacing-8); }
+       .content-block h2 { margin-top: var(--spacing-8); margin-bottom: var(--spacing-4); font-family: var(--font-display); font-size: 1.5rem; }
+       .content-block p { margin-bottom: var(--spacing-4); color: var(--on-surface-variant); font-size: 1rem; line-height: 1.6; }
+       .content-block ul { margin-left: var(--spacing-8); margin-bottom: var(--spacing-4); }
+       .content-block li { margin-bottom: var(--spacing-2); color: var(--on-surface-variant); line-height: 1.6; }
+       .page-header { background: var(--primary); color: white; padding: var(--spacing-16) var(--spacing-24); margin-bottom: var(--spacing-16); }
+       .page-header h1 { font-family: var(--font-display); font-size: 3rem; margin:0; }
+       .action-btn { display: inline-block; margin-top: var(--spacing-4); }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo">
+            <img src="../assets/images/KMT_logo.png" alt="KMT">
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="about.html">Про термінал</a></li>
+                <li><a href="services.html">Послуги</a></li>
+                <li><a href="infrastructure.html">Інфраструктура</a></li>
+                <li><a href="advantages.html">Переваги</a></li>
+                <li><a href="info.html">Корисна інформація</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <div class="lang-switch"><span class="active">UA</span> / <span>EN</span></div>
+            <a href="contact.html" class="btn btn-primary">Отримати консультацію</a>
+        </div>
+    </header>
+    <main>
+        <div class="page-header">
+            <h1>Контакти</h1>
+        </div>
+        <section class="section-padding content-block">
+            <p><strong>Адреса:</strong> м. Ковель, Волинська область, вул. Варшавська, 1</p>
+            <p><strong>Телефон:</strong> +38 (050) 123-45-67</p>
+            <p><strong>Email:</strong> info@kmt.ua</p>
+            
+            <form style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; max-width: 500px;">
+                <input type="text" placeholder="Ім'я" class="form-input" style="padding: 1rem; background: var(--surface-container-low); border: none; border-bottom: 2px solid transparent;">
+                <input type="text" placeholder="Компанія" class="form-input" style="padding: 1rem; background: var(--surface-container-low); border: none; border-bottom: 2px solid transparent;">
+                <input type="tel" placeholder="Телефон" class="form-input" style="padding: 1rem; background: var(--surface-container-low); border: none; border-bottom: 2px solid transparent;">
+                <textarea placeholder="Повідомлення" rows="4" style="padding: 1rem; background: var(--surface-container-low); border: none; border-bottom: 2px solid transparent;"></textarea>
+                <button type="button" class="btn btn-primary" style="margin-top: 1rem;">Відправити</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-nav">
+                <h4 class="label-md">Навігація</h4>
+                <ul>
+                    <li><a href="about.html">Про термінал</a></li>
+                    <li><a href="services.html">Послуги</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h4 class="label-md">Контакти</h4>
+                <p>м. Ковель, вул. Варшавська, 1</p>
+            </div>
+            <div class="footer-legal">
+                <h4 class="label-md">Юридична інформація</h4>
+                <p><a href="#privacy">Політика конфіденційності</a></p>
+                <p>© 2024 Kovel Multi Transport (KMT)</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
