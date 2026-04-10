@@ -1,0 +1,7 @@
+node_modules/
+.env
+.DS_Store
+server/mariadb/
+server/apache/
+server/php/
+server/tmp/
